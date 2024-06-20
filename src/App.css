@@ -31,6 +31,9 @@ body {
   font-size: 18px;
   cursor: pointer;
 }
+.container.heading {
+  color: #1f2128;
+}
 
 .container:hover .blue-checkbox {
   border-color: #bdbdbd;
@@ -92,6 +95,7 @@ hr.divider {
   border: 0px;
   appearance: none;
   background-color: #ffce22;
+  color: #1f2128;
   cursor: pointer;
 }
 
