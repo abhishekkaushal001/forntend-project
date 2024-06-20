@@ -5,7 +5,7 @@ const ListItem = ({heading}) => {
     
   return (
     <div class="container" onClick={() => setSelected(!selected)}>
-        <div className="heading"> {heading} </div>
+        <div class="heading"> {heading} </div>
         <div class={"blue-checkbox " + (selected ? "selected" : "")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

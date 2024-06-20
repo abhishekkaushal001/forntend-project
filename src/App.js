@@ -13,7 +13,7 @@ function App() {
     <div class="card">
       {/* All Pages */}
       <div class="container" onClick={() => setAllSelected(!allSelected)}>
-        <div> All pages </div>
+        <div class="heading"> All pages </div>
         <div class={"blue-checkbox " + (allSelected ? "selected" : "")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
